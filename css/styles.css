@@ -1,0 +1,160 @@
+/* onek jayegaye ami 7%(top bottom) and 15%(left right) padding diyechi mane margin chere sob kaj hobe */
+body{
+    font-family: 'Montserrat';
+}
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Montserrat-Black';
+    size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.head-style{
+    color: white;
+    font-size: 3rem;
+}
+.desc{
+    margin-top: 30px;
+}
+/* navigation bar design */
+.navbar-brand{ 
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar-desc{
+    position: absolute;
+    right: 30px;
+}
+/* spacing b/w contact pricing nd download */
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+}
+/* download button style  */
+.button-desc{
+    margin-top: 5%;
+    margin-left: 5px;
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-display: bold;
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+/* title image of dog */
+.title-img{
+    width: 60%;
+    /* 25 degree rotate to right side if - then anti clock wise rotation  */
+    transform: rotate(25deg);
+    position: relative;
+    left: 25%;
+}
+/* features section */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1;  currently not working */
+}
+/* easy to use r baki jinish gulo feature a center korar jonne  */
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+/* icon gulor design */
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* Testimonial section */
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 7% 15%;
+}
+h2{
+    color: white;
+    font-family: 'Montserrat-bold';
+    font-size: 2rem;
+    line-height: 2;
+}
+.testimonial-section{
+    width: 20%;
+    /* to make image round shape border radius 100% koro */
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.image{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+/* slide show er buttons gulo ektu wide thake jate */
+.carousel-item{
+    padding: 7% 20%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.price-head{
+   color: black;
+   font-weight: 900;
+}
+.priced-head{
+    font-weight: 800;
+}
+.price-desc{
+    padding: 3% 2%;
+}
+@media (max-width:756px)
+{
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        margin-top: 10px;
+    }
+}
+/* cta area design */
+#cta{
+    text-align: center;
+}
+.cta-desc{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+.cta-text-desc{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Montserrat-Black";
+}
+#footer{
+    text-align: center;
+}
+.footer-sec{
+    padding: 3% 15%;
+}
+.logo{
+    padding: 3% 3%;
+}
